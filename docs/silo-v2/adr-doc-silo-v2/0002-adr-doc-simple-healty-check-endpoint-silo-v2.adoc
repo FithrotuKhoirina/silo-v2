@@ -1,7 +1,7 @@
 :toc:
 :toc-title: 
 
-= [ADR-0001] Simple Health Check Endpoint (System Name)
+= [ADR-0002] Simple Health Check Endpoint (System Name)
 
 * Status: proposed
 * Deciders: Tegar Imansyah
