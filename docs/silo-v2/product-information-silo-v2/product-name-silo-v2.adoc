@@ -3,8 +3,8 @@
 == Overview Product
 
 |===
-|Product Type| (tipe produk yang dibuat)
-|End Point|(status endpoint dari produk)|
+|*Product Type*| (tipe produk yang dibuat)
+|*End Point*|(status endpoint dari produk)|
 |===
 
 Menjelaskan jenis produk dan tujuan dibuatnya dokumen ini. 
@@ -30,7 +30,7 @@ Menjelaskan terkait peraturan yang tidak boleh dilakukan oleh actor
 Menjelaskan seluruh fitur secara lengkap yang digunakan pada produk
 
 |===
-|Feature ID|Feature Name|Actor|Description|Status|Date/Time
+|*Feature ID*|*Feature Name*| *Actor* | *Description* |*Status* |*Date/Time*
 |(ID fitur yang digunakan)|(nama fitur yang digunakan)|(role diberikan hak akses dari fitur)|(penjelasan singkat fungsi dari fitur)|(status yang diberikan pada fitur)|(tanggal dan waktu rilis fitur)|
 |===
 
@@ -43,7 +43,7 @@ Menjelaskan terkait konten Precondition apa saja yang ada pada produk
 Menjelaskan secara rinci kondisi masing-masing feature yang digunakan oleh produk
 
 |===
-|Feature ID|Fitur Name|Condition Status|Description|Actor(Resprocess)
+|*Feature ID*|*Fitur Name*|*Condition Status*|*Description* |*Actor(Resprocess)*
 |(ID fitur yang digunakan)|(nama fitur yang digunakan)|(status yang diberikan pada fitur)|(penjelasan singkat fungsi dari fitur)|(role diberikan hak akses dari fitur)|
 |===
 
@@ -55,37 +55,37 @@ Penjelasan singkat terkait Log apa saja yang ada pada produk, termasuk menjelask
 
 Penjelasan singkat terkait Log apa saja selama proses development.
 
-contoh pengisian Tabel :
+**contoh pengisian Tabel :
 
 |===
-|Type|Parameter|Description
-|Mandatory|credential|(penjelasan singkat fungsi dari parameter)
-| |customer id| 
-|Additional (If Needed)|message|
-| |detail|
+| *Type* | *Parameter* |*Description*
+|Mandatory|`credential`|(penjelasan singkat fungsi dari parameter)
+| |`customer id`| 
+|Additional (If Needed)|`message`|
+| |`detail`|
 |===
 
 
 ==== Sample System Log
 
-contoh pengisian Tabel :
+**contoh pengisian Tabel :
 
 |===
-|Sample Name|Sample Code System Log
-|Biller Pre Request|
+|*Sample Name*|*Sample Code System Log*
+|Biller Pre Request|``
 {
 "amount": 0,
 "credential": "Contoh",
 "customer_id": "000000000",
-}|
+}`|
 |===
 
 ==== Event Flag
 
-contoh pengisian Tabel :
+**contoh pengisian Tabel :
 
 |===
-|biller.pre.request
+|`biller.pre.request`
 |===
 
 
@@ -93,10 +93,10 @@ contoh pengisian Tabel :
 
 Penjelasan singkat terkait API yang digunakan oleh produk.
 
-contoh pengisian Tabel :
+**contoh pengisian Tabel :
 
 |===
-|Type|Parameter|Data Type
+| *Type* | *Parameter* |*Data Type*
 |Mandatory|event|string
 | |time|time
 |Additional (If Needed)| |
@@ -104,20 +104,20 @@ contoh pengisian Tabel :
 
 ==== Sample System Log
 
-contoh pengisian Tabel :
+**contoh pengisian Tabel :
 
 |===
-|Sample|Sample Code API Log
+| *Sample* |*Sample Code API Log*
 |Sample Login|
-{
+`{
 "event": "api",
 "time": "2019-01-16T13:07:46.170005"
-}
+}`
 |===
 
 ==== Event Flag
 
-contoh pengisian Tabel :
+**contoh pengisian Tabel :
 
 |===
 |api.bussiness
@@ -126,10 +126,10 @@ contoh pengisian Tabel :
 
 ==== API Information
 
-contoh pengisian Tabel:
+**contoh pengisian Tabel:
 
 |===
-|Event|Action|Handler|Package|Sample url
+| *Event* | *Action* | *Handler* | *Package* | *Sample url* 
 |api.bussiness|Transaction 1|CreateTransactionReference|system/modules/bridging/action|/api/transaction/mobile.json
 | |Transaction 2|CreateTransaction|system/modules/kraken/action|/api/v3/transaction/mobile
 |api.operational|User login|LoginUser|system/controllers|/login
@@ -147,7 +147,7 @@ Pada tahap ini QE berperan dalam melakukan dokumentasi dari tiap proses Test Sce
 === Test Case 1
 
 |===
-|Step|Description
+| *Step* | *Description*
 |Scenario|Menjelaskan alur dan pencapaian dari test case yang dilakukan
 |Expected|Menjelaskan Pencapaian test case yang diinginkan oleh PO/Developer
 |Given|Menjelaskan Action yang telah diberikan oleh SE
@@ -159,6 +159,6 @@ Pada tahap ini QE berperan dalam melakukan dokumentasi dari tiap proses Test Sce
 === Report
 
 |===
-|Step|Screenshoot|Status
+| *Step* | *Screenshoot* | *Status*
 |Menjelaskan seluruh step yang dilakukan selama test case|Bukti gambar dari masing-masing step|Status dari hasil yang diberikan oleh QA 
 |===
