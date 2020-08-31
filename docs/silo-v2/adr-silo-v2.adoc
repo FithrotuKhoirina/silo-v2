@@ -1,4 +1,4 @@
-= Document ADR (System Name)
+= Document ADR Silo V2
 
 
 The documents below are the history of all decisions applied by the development team based on the exploration
@@ -6,6 +6,6 @@ The documents below are the history of all decisions applied by the development 
 
 |===
 |*Document Title* |*Remark/Explanation*
-| <<adr-doc-silo-v2/0000-adr-doc-old-decision-silo-v2.adoc#, [ADR-0000] Old Decision  >> |Template ADR
-|<<adr-doc-silo-v2/0001-adr-doc-simple-healty-check-endpoint-silo-v2.adoc#, [ADR-0001] Simple Health Check Endpoint  >> | Example ADR Doc
+|[ADR-0001] Taken Decision Silo V2 | <<adr-doc-sentinel/0001-decision-taken-silo-v2.adoc#, [ADR-0001] Taken Decision Sentinel>>
+|[ADR-0002] New Decision Silo V2 | <<adr-doc-sentinel/0002-new-decision-silo-v2.adoc#, [ADR-0002] New Decision Sentinel>>
 |===
