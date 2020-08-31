@@ -1,0 +1,53 @@
+:toc:
+:toc-title: 
+
+= [ADR-0001] Simple Health Check Endpoint (System Name)
+
+* Status: proposed
+* Deciders: Tegar Imansyah
+* Date: 2020-08-11
+
+== Summary
+
+=== Issue
+
+We need a way to determine whether our REST API server is able to accept
+request or not.
+
+=== Decision
+
+The REST API server must have an endpoint `/health`, lower case without
+any prefix, that returns HTTP code 200. The content is not important
+yet.
+
+=== Consequences
+
+The health check endpoint will be periodically tested by central
+monitoring tools and load balancer. If returns 200, it means the REST
+API server is running, but doesn’t mean all features is available. Else
+if returns 4xx or 5xx it means the server has a problem(s).
+
+=== Related Decisions
+
+-
+
+
+== References, Implementations and Notes
+
+Notes:
+
+Normally, the health check endpoint should perform various checks, such
+as:
+
+* Connection to the backing system (Db, cache, 3rd party service)
+* Host condition (disk usage, RAM usage, CPU usage)
+* Application specific logic
+* Latency an
+
+But for the sake of simplicity, we should start with enabling the
+endpoint and the check decision will follow later.
+
+Reference:
+
+* https://microservices.io/patterns/observability/health-check-api.html[Health
+Check API by Microservices.io]
