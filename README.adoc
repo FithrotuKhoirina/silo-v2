@@ -69,4 +69,4 @@ https://github.com/sepulsa/silo2/releases[Release Note]
 
 <<docs/silo-v2/problem-trouble-silo-v2.adoc#, Problem and Troubleshoot Silo V2>>
 
-<<docs/silo-v2/adr-doc-silo-v2.adoc#, ADR Document  Silo V2>>
+<<docs/silo-v2/adr-silo-v2.adoc#, ADR Document  Silo V2>>
