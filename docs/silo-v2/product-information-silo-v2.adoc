@@ -1,0 +1,3 @@
+= Product Information Document Silo V2
+
+<<product-information-silo-v2/product-name-silo-v2.adoc#, Product Name Silo V2>>
