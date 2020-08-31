@@ -7,5 +7,5 @@ The documents below are the history of all decisions applied by the development 
 |===
 |*Document Title* |*Remark/Explanation*
 | <<adr-doc-silo-v2/0000-adr-doc-old-decision-silo-v2.adoc#, [ADR-0000] Old Decision  >> |Template ADR
-|<<adr-doc-silo-v2/0001-adr-doc-simple-healty-check-endpoint.adoc#, [ADR-0001] Simple Health Check Endpoint  >> | Example ADR Doc
+|<<adr-doc-silo-v2/0001-adr-doc-simple-healty-check-endpoint-silo-v2.adoc#, [ADR-0001] Simple Health Check Endpoint  >> | Example ADR Doc
 |===
