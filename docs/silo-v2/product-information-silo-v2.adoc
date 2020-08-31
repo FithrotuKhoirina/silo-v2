@@ -2,4 +2,11 @@
 
 Dokumen berikut berisi penjelasan terkait semua product yang ada di dalam sistem Silo V2. Berikut untuk list dari product information :
 
-<<product-information-silo-v2/product-name-silo-v2.adoc#, Product Name Silo V2>>
+
+|===
+|*Document Title* |*Remark/Explanation*
+| <<product-information-silo-v2/product-name-silo-v2.adoc#, Product Name Silo V2>> |
+|===
+
+
+
