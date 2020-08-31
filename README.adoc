@@ -41,25 +41,25 @@ Terdapat 4 aktor yang terlibat dalam sistem Silo V2, yaitu:
 
 == Technical Information
 
-<<silo-v2/url-silo-v2.adoc#, System URL Silo V2>>
+<<docs/silo-v2/url-silo-v2.adoc#, System URL Silo V2>>
 
-<<silo-v2/architecture-silo-v2.adoc#, Architecture Silo V2>>
+<<docs/silo-v2/architecture-silo-v2.adoc#, Architecture Silo V2>>
 
-<<silo-v2/technology-silo-v2.adoc#, Technology Silo V2>>
+<<docs/silo-v2/technology-silo-v2.adoc#, Technology Silo V2>>
 
-<<silo-v2/environment-silo-v2.adoc#, Environment Silo V2>>
+<<docs/silo-v2/environment-silo-v2.adoc#, Environment Silo V2>>
 
-<<silo-v2/database-silo-v2.adoc#, Database Documentation Silo V2>>
+<<docs/silo-v2/database-silo-v2.adoc#, Database Documentation Silo V2>>
 
-<<silo-v2/release-deploy-silo-v2.adoc#, Release and Deployment Silo V2>>
+<<docs/silo-v2/release-deploy-silo-v2.adoc#, Release and Deployment Silo V2>>
 
 == Onboarding Information
 
-<<silo-v2/dev-onboarding-silo-v2.adoc#, Developer Onboarding Silo V2>>
+<<docs/silo-v2/dev-onboarding-silo-v2.adoc#, Developer Onboarding Silo V2>>
 
-<<silo-v2/development-silo-v2.adoc#, Development Silo V2>>
+<<docs/silo-v2/development-silo-v2.adoc#, Development Silo V2>>
 
-<<silo-v2/naming-convention-silo-v2.adoc#, Naming Convention Silo V2>>
+<<docs/silo-v2/naming-convention-silo-v2.adoc#, Naming Convention Silo V2>>
 
 == Documentation
 
@@ -67,6 +67,6 @@ https://silo.sumpahpalapa.com/admin/apidoc[API Documentation]
 
 https://github.com/sepulsa/silo2/releases[Release Note]
 
-<<silo-v2/problem-trouble-silo-v2.adoc#, Problem and Troubleshoot Silo V2>>
+<<docs/silo-v2/problem-trouble-silo-v2.adoc#, Problem and Troubleshoot Silo V2>>
 
-<<docs-systemname/adr-doc-silo-v2.adoc#, ADR Document  Silo V2>>
+<<docs/silo-v2/adr-doc-silo-v2.adoc#, ADR Document  Silo V2>>
