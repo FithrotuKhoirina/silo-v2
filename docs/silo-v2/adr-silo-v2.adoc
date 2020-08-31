@@ -6,6 +6,6 @@ The documents below are the history of all decisions applied by the development 
 
 |===
 |*Document Title* |*Remark/Explanation*
-|[ADR-0001] Taken Decision Silo V2 | <<adr-doc-sentinel/0001-decision-taken-silo-v2.adoc#, [ADR-0001] Taken Decision Sentinel>>
-|[ADR-0002] New Decision Silo V2 | <<adr-doc-sentinel/0002-new-decision-silo-v2.adoc#, [ADR-0002] New Decision Sentinel>>
+|[ADR-0001] Taken Decision Silo V2 | <<adr-doc-silo-v2/0001-decision-taken-silo-v2.adoc#, [ADR-0001] Taken Decision Sentinel>>
+|[ADR-0002] New Decision Silo V2 | <<adr-doc-silo-v2/0002-new-decision-silo-v2.adoc#, [ADR-0002] New Decision Sentinel>>
 |===
