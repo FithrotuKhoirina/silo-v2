@@ -20,7 +20,7 @@ jobs:
           USER_EMAIL: dev@alterra.id
           DEST_BRANCH: master
           INITIATIVE_NAME: telco
-          SYSTEM_NAME: docs-silo
+          SYSTEM_NAME: docs-silo-v2
         run: |
           sudo apt install curl
           sh entrypoint.sh
