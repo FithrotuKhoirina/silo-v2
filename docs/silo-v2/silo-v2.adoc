@@ -68,3 +68,5 @@ https://silo.sumpahpalapa.com/admin/apidoc[API Documentation]
 https://github.com/sepulsa/silo2/releases[Release Note]
 
 <<silo-v2/problem-trouble-silo-v2.adoc#, Problem and Troubleshoot Silo V2>>
+
+<<docs-systemname/adr-doc-silo-v2.adoc#, ADR Document  Silo V2>>
