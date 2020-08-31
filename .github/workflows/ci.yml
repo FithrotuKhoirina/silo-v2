@@ -9,20 +9,18 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: pandoc/latex
     steps:
       - uses: actions/checkout@v2
-      # - name: creates output
-      #   run:  sh ./build.sh
-      - name: Pushes to Knowledgebase
-        uses: rochmadnurdin/kb@master
+      - name: Pushes to another repository
         env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_1 }}
-        with:
-          source-directory: 'docs'
-          destination-github-username: 'rochmadnurdin'
-          destination-repository-name: 'kb'
-          user-email: dev@alterra.id
-          destination-branch: master
-          system-name: docs/telco
-
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+          SRC_DIR: 'docs-silo-v2'
+          DEST_GITHUB_USERNAME: 'rochmadnurdin'
+          DEST_GITHUB_REPO: 'knowledgebase'
+          USER_EMAIL: dev@alterra.id
+          DEST_BRANCH: master
+          INITIATIVE_NAME: telco
+          SYSTEM_NAME: docs-silo
+        run: |
+          sudo apt install curl
+          sh entrypoint.sh
