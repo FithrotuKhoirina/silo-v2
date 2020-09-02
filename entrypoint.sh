@@ -9,11 +9,12 @@ git config --global user.email "$USER_EMAIL"
 git config --global user.name "$DEST_GITHUB_USERNAME"
 git clone --single-branch -b $SYSTEM_NAME "https://$API_TOKEN_GITHUB@github.com/$DEST_GITHUB_USERNAME/$DEST_GITHUB_REPO.git" "$CLONE_DIR"
 git pull origin $DEST_BRANCH
+SYSTEM = "silo-v2"
 
 echo 'Copying from '"$SRC_DIR"'/*' "to $CLONE_DIR/$INITIATIVE_NAME/$SYSTEM_NAME"
-mkdir -p "$CLONE_DIR/$INITIATIVE_NAME/$SYSTEM_NAME/$SYSTEM_NAME"
-cp -R "$SRC_DIR"/* "$CLONE_DIR/$INITIATIVE_NAME/$SYSTEM_NAME/$SYSTEM_NAME" || (rm -Rf "$CLONE_DIR" && exit 1)
-cp readme.adoc "$CLONE_DIR/$INITIATIVE_NAME/$SYSTEM_NAME/$SYSTEM_NAME.adoc" || (rm -Rf "$CLONE_DIR" && exit 1)
+mkdir -p "$CLONE_DIR/$INITIATIVE_NAME/$SYSTEM/$SYSTEM_NAME"
+cp -R "$SRC_DIR"/* "$CLONE_DIR/$INITIATIVE_NAME/$SYSTEM/$SYSTEM_NAME" || (rm -Rf "$CLONE_DIR" && exit 1)
+cp readme.adoc "$CLONE_DIR/$INITIATIVE_NAME/$SYSTEM/$SYSTEM_NAME.adoc" || (rm -Rf "$CLONE_DIR" && exit 1)
 
 echo "Push to $DEST_GITHUB_USERNAME/$DEST_GITHUB_REPO in branch $INITIATIVE_NAME"
 cd "$CLONE_DIR"
