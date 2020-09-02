@@ -1,4 +1,4 @@
-= Silo V2 dari KB bos
+= Silo V2 dari KB
 :keywords: Telco,active
 
 == Overview
