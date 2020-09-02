@@ -21,4 +21,4 @@ jobs:
             PR_TO_BRANCH: 'master'
             SRC_DIR: 'docs-silo-v2'
             DEST_DIR: 'telco/silo-v2'
-            PREFIX_DEST_FOLDER: ''
+            PREFIX_DEST_FOLDER: 'docs/'
