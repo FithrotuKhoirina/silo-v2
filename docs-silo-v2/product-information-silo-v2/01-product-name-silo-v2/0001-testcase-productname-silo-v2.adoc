@@ -1,4 +1,4 @@
-= [0001] Test Case Sentinel
+= [0001] Test Case Silo V2
 
 |===
 | *Step* | *Description*
