@@ -1,26 +1,24 @@
-# This is a basic workflow to help you get started with Actions
-
-name: Push to Knowledge Based
+name: Push to Other Repo and Make a PR
 
 on:
   release:
     types: [published]
-
+  
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Pushes to another repository
+      - name: Push to other repository
+        uses: tegarimansyah/push_and_pr@master
         env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-          SRC_DIR: 'docs-silo-v2'
-          DEST_GITHUB_USERNAME: 'rochmadnurdin'
-          DEST_GITHUB_REPO: 'knowledgebase'
-          USER_EMAIL: dev@alterra.id
-          DEST_BRANCH: master
-          INITIATIVE_NAME: telco
-          SYSTEM_NAME: docs-silo-v2
-        run: |
-          sudo apt install curl
-          sh entrypoint.sh
+            API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+
+            DEST_GITHUB_USERNAME: 'rochmadnurdin'
+            DEST_REPO_NAME: 'knowledgebase'
+            USER_EMAIL: 'test@example.com'
+            PUSH_TO_BRANCH: 'docs-silo-v2'
+            PR_TO_BRANCH: 'master'
+            SRC_DIR: 'docs-silo-v2'
+            DEST_DIR: 'telco/silo-v2/docs-silo-v2'
+            PREFIX_DEST_FOLDER: ''
