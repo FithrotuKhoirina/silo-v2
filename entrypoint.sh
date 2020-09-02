@@ -11,7 +11,7 @@ git clone --single-branch -b $SYSTEM_NAME "https://$API_TOKEN_GITHUB@github.com/
 git pull origin $DEST_BRANCH
 
 echo 'Copying from '"$SRC_DIR"'/*' "to $CLONE_DIR/$INITIATIVE_NAME/$SYSTEM_NAME"
-mkdir -p "$CLONE_DIR/$INITIATIVE_NAME/$SYSTEM_NAME"
+mkdir -p "$CLONE_DIR/$INITIATIVE_NAME/$SYSTEM_NAME/$SYSTEM_NAME"
 cp -R "$SRC_DIR"/* "$CLONE_DIR/$INITIATIVE_NAME/$SYSTEM_NAME/$SYSTEM_NAME" || (rm -Rf "$CLONE_DIR" && exit 1)
 cp readme.adoc "$CLONE_DIR/$INITIATIVE_NAME/$SYSTEM_NAME/$SYSTEM_NAME.adoc" || (rm -Rf "$CLONE_DIR" && exit 1)
 
